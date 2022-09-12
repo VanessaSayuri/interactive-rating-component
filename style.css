@@ -101,8 +101,7 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    width: 400px;
+    width: 300px;
     max-width: 580px;
 
 }
@@ -110,4 +109,41 @@ button{
 
 .thankyou-wrapper{
     background-color: hsl(216, 12%, 54%);
+}
+
+
+
+.thankyou-wrapper{
+    background-color: hsl(216, 12%, 8%);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rating-selected p {
+    color: hsl(25, 97%, 53%);
+    margin: 10px;
+    padding: 5px 12px;
+    font-size: 0.7rem;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+.thankyou-message h2{
+    color: white;
+    margin: 10px;
+    padding: 5px 0;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thankyou-message p{
+    color: hsl(217, 12%, 63%);
+    font-size: 0.7rem;
+    padding: 5px 10px;
 }
